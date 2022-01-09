@@ -6,13 +6,12 @@ importScripts("https://www.gstatic.com/firebasejs/8.2.0/firebase-messaging.js");
 
 // Initialize the Firebase app in the service worker by passing the generated config
 const firebaseConfig = {
-  apiKey: "AIzaSyCennbAnRkBW3o2OlxkwI1HJ8p_p1ybK-A",
-  authDomain: "django-project-10471.firebaseapp.com",
-  projectId: "django-project-10471",
-  storageBucket: "django-project-10471.appspot.com",
-  messagingSenderId: "556229374549",
-  appId: "1:556229374549:web:02cef70d5d60d155159adc",
-  measurementId: "G-RX2DPRT8F1",
+  apiKey: "AIzaSyD6FESJnWvkkZCkCuL2jL1Mi06vjylT1GI",
+  authDomain: "notification-3eb8a.firebaseapp.com",
+  projectId: "notification-3eb8a",
+  storageBucket: "notification-3eb8a.appspot.com",
+  messagingSenderId: "662637249214",
+  appId: "1:662637249214:web:c831cd5c75eb2f29ab94ef",
 };
 
 // eslint-disable-next-line no-undef

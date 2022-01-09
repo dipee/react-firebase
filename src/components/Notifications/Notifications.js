@@ -3,7 +3,6 @@ import { getToken } from "../../firebaseInit.js";
 
 const Notifications = (props) => {
   const [isTokenFound, setTokenFound] = useState(false);
-
   console.log("Token found", isTokenFound);
 
   // To load once

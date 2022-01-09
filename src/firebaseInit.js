@@ -4,13 +4,12 @@ import "firebase/auth";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCennbAnRkBW3o2OlxkwI1HJ8p_p1ybK-A",
-  authDomain: "django-project-10471.firebaseapp.com",
-  projectId: "django-project-10471",
-  storageBucket: "django-project-10471.appspot.com",
-  messagingSenderId: "556229374549",
-  appId: "1:556229374549:web:02cef70d5d60d155159adc",
-  measurementId: "G-RX2DPRT8F1",
+  apiKey: "AIzaSyD6FESJnWvkkZCkCuL2jL1Mi06vjylT1GI",
+  authDomain: "notification-3eb8a.firebaseapp.com",
+  projectId: "notification-3eb8a",
+  storageBucket: "notification-3eb8a.appspot.com",
+  messagingSenderId: "662637249214",
+  appId: "1:662637249214:web:c831cd5c75eb2f29ab94ef",
 };
 
 firebase.initializeApp(firebaseConfig);
@@ -18,10 +17,9 @@ firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
 
 // const { REACT_APP_VAPID_KEY } = process.env;
-const { REACT_APP_VAPID_KEY } =
-  "BOEK9P9Imda1IDvNN-Ppxl6fZiDrdRIGPKiiOI-0Y5KlShaIQ9nm5UNYfn0NhBa-8UwBtVhR24YzTKgDxLlJwos";
+
 const publicKey =
-  "BOEK9P9Imda1IDvNN-Ppxl6fZiDrdRIGPKiiOI-0Y5KlShaIQ9nm5UNYfn0NhBa-8UwBtVhR24YzTKgDxLlJwos";
+  "BApYqL7XxDvBod4pWIgt9pVuIjkJrCEOzcYDgwZyyZBlyMzHPYWqGklH81WFdK6LRXrMSzAICz8g794SZTOkBBU";
 
 export const getToken = async (setTokenFound) => {
   let currentToken = "";
